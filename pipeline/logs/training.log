@@ -1,0 +1,1338 @@
+2026-05-28 04:31:55,091 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:31:55,091 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:31:55,091 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:31:55,093 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:31:55,093 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:31:55,146 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:31:55,146 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:31:55,146 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:31:55,146 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:31:55,147 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:31:55,149 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:31:55,149 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:31:55,149 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:31:55,149 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:31:55,149 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:31:55,150 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:31:55,154 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:31:55,154 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:31:55,167 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:31:55,167 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:31:55,168 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:31:55,168 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:31:55,168 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:31:55,170 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:31:55,170 | Pipelinebuilder | ERROR | Error during pipeline building: 'training'
+2026-05-28 04:31:55,171 | PipelineRunner | ERROR | Error during pipeline execution: Pipeline building failed. Pipeline is None.
+2026-05-28 04:31:55,171 | Main | ERROR | The Ml Build Pipeline has failed
+2026-05-28 04:35:00,963 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:35:00,963 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:35:00,963 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:35:00,965 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:35:00,965 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:35:00,973 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:35:00,974 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:35:00,974 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:35:00,974 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:35:00,974 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:35:00,975 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:35:00,975 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:35:00,975 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:35:00,975 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:35:00,975 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:35:00,976 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:35:00,979 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:35:00,979 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:35:00,987 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:35:00,987 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:35:00,989 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:35:00,989 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:35:00,990 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:35:00,991 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:35:00,991 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:35:00,991 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:00,992 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:00,992 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:35:00,992 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:35:00,994 | Training | INFO | Training the model
+2026-05-28 04:35:00,994 | Training | INFO | Fitting the data into the model
+2026-05-28 04:35:03,983 | Training | INFO | Getting the best model
+2026-05-28 04:35:03,984 | Training | INFO | Testing the best model
+2026-05-28 04:35:03,985 | Training | INFO | Testing has been completed
+2026-05-28 04:35:03,986 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:35:03,987 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:35:03,991 | Training | INFO | Model has been successfully saved
+2026-05-28 04:35:03,991 | Training | INFO | Calculating the accuracy
+2026-05-28 04:35:03,992 | Training | ERROR | Error during model training: 'Pipeline' object has no attribute 'accuracy_score'
+2026-05-28 04:35:03,992 | PipelineRunner | ERROR | Error during pipeline execution: Model training failed.
+2026-05-28 04:35:03,992 | Main | ERROR | The Ml Build Pipeline has failed
+2026-05-28 04:35:42,365 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:35:42,365 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:35:42,365 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:35:42,366 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:35:42,366 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:35:42,372 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:35:42,372 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:35:42,372 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:35:42,372 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:35:42,372 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:35:42,373 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:35:42,373 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:35:42,373 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:35:42,373 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:35:42,373 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:35:42,374 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:35:42,376 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:35:42,376 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:35:42,385 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:35:42,385 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:35:42,386 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:35:42,386 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:35:42,386 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:35:42,388 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:42,389 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:42,389 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:35:42,389 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:35:42,389 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:35:42,390 | Training | INFO | Training the model
+2026-05-28 04:35:42,390 | Training | INFO | Fitting the data into the model
+2026-05-28 04:35:45,260 | Training | INFO | Getting the best model
+2026-05-28 04:35:45,261 | Training | INFO | Testing the best model
+2026-05-28 04:35:45,262 | Training | INFO | Testing has been completed
+2026-05-28 04:35:45,262 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:35:45,262 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:35:45,265 | Training | INFO | Model has been successfully saved
+2026-05-28 04:35:45,265 | Training | INFO | Calculating the accuracy
+2026-05-28 04:35:45,267 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:35:45,267 | Training | INFO | Generating the classification report
+2026-05-28 04:35:45,272 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:35:45,272 | Training | INFO | Calculating the recall score
+2026-05-28 04:35:45,274 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:35:45,274 | Training | INFO | Calculating the precision score
+2026-05-28 04:35:45,276 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:35:45,276 | Training | INFO | Calculating the F1 score
+2026-05-28 04:35:45,278 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:35:45,278 | Training | INFO | Generating confusion matrix
+2026-05-28 04:35:46,422 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:35:46,423 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:35:46,423 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:35:46,423 | Testing | INFO | Starting model testing
+2026-05-28 04:35:46,425 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 04:35:46,425 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:35:46,441 | Testing | INFO | Model loaded successfully
+2026-05-28 04:35:46,442 | Testing | INFO | Predictions generated successfully
+2026-05-28 04:35:46,446 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 04:35:46,447 | Testing | INFO | Testing accuracy: 50.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 04:35:46,447 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 04:35:46,447 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 04:35:46,448 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 04:37:21,508 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:37:21,508 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:37:21,508 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:37:21,510 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:37:21,510 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:37:21,515 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:37:21,515 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:37:21,515 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:37:21,515 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:37:21,515 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:37:21,516 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:37:21,516 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:37:21,516 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:37:21,516 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:37:21,516 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:37:21,516 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:37:21,535 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:37:21,536 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:37:21,544 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:37:21,545 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:37:21,546 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:37:21,546 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:37:21,546 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:37:21,548 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:37:21,548 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:37:21,548 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:37:21,548 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:37:21,548 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:37:21,549 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:37:21,549 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:37:21,549 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:37:21,549 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:37:21,549 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:37:21,549 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:37:21,551 | Training | INFO | Training the model
+2026-05-28 04:37:21,551 | Training | INFO | Fitting the data into the model
+2026-05-28 04:37:24,515 | Training | INFO | Getting the best model
+2026-05-28 04:37:24,516 | Training | INFO | Testing the best model
+2026-05-28 04:37:24,517 | Training | INFO | Testing has been completed
+2026-05-28 04:37:24,517 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:37:24,517 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:37:24,520 | Training | INFO | Model has been successfully saved
+2026-05-28 04:37:24,520 | Training | INFO | Calculating the accuracy
+2026-05-28 04:37:24,521 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:37:24,522 | Training | INFO | Generating the classification report
+2026-05-28 04:37:24,527 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:37:24,528 | Training | INFO | Calculating the recall score
+2026-05-28 04:37:24,530 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:37:24,530 | Training | INFO | Calculating the precision score
+2026-05-28 04:37:24,532 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:37:24,532 | Training | INFO | Calculating the F1 score
+2026-05-28 04:37:24,534 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:37:24,534 | Training | INFO | Generating confusion matrix
+2026-05-28 04:37:24,749 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:37:24,750 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:37:24,750 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:37:24,750 | Testing | INFO | Starting model testing
+2026-05-28 04:37:24,753 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 04:37:24,753 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:37:24,763 | Testing | INFO | Model loaded successfully
+2026-05-28 04:37:24,764 | Testing | INFO | Predictions generated successfully
+2026-05-28 04:37:24,767 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 04:37:24,768 | Testing | INFO | Testing accuracy: 50.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 04:37:24,768 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 04:37:24,768 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 04:37:24,768 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 04:44:31,578 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:44:31,578 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:44:31,578 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:44:31,580 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:44:31,580 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:44:31,585 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:44:31,586 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:44:31,586 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:44:31,586 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:44:31,586 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:44:31,587 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:44:31,587 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:44:31,587 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:44:31,587 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:44:31,587 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:44:31,587 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:44:31,590 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:44:31,590 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:44:31,599 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:44:31,600 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:44:31,600 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:44:31,601 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:44:31,601 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:44:31,602 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:44:31,603 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:44:31,603 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:44:31,603 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:44:31,605 | Training | INFO | Training the model
+2026-05-28 04:44:31,605 | Training | INFO | Fitting the data into the model
+2026-05-28 04:44:34,571 | Training | INFO | Getting the best model
+2026-05-28 04:44:34,571 | Training | INFO | Testing the best model
+2026-05-28 04:44:34,572 | Training | INFO | Testing has been completed
+2026-05-28 04:44:34,572 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:44:34,572 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:44:34,575 | Training | INFO | Model has been successfully saved
+2026-05-28 04:44:34,575 | Training | INFO | Calculating the accuracy
+2026-05-28 04:44:34,576 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:44:34,576 | Training | INFO | Generating the classification report
+2026-05-28 04:44:34,582 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:44:34,582 | Training | INFO | Calculating the recall score
+2026-05-28 04:44:34,584 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:44:34,584 | Training | INFO | Calculating the precision score
+2026-05-28 04:44:34,586 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:44:34,586 | Training | INFO | Calculating the F1 score
+2026-05-28 04:44:34,589 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:44:34,589 | Training | INFO | Generating confusion matrix
+2026-05-28 04:44:34,778 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:44:34,778 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:44:34,779 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:44:34,779 | Testing | INFO | Starting model testing
+2026-05-28 04:44:34,784 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 04:44:34,784 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:44:34,793 | Testing | INFO | Model loaded successfully
+2026-05-28 04:44:34,794 | Testing | ERROR | Error during model testing: "['Expected_Label'] not found in axis"
+2026-05-28 04:44:34,794 | PipelineRunner | ERROR | Error during pipeline execution: Model testing failed.
+2026-05-28 04:44:34,794 | Main | ERROR | The Ml Build Pipeline has failed
+2026-05-28 04:48:27,076 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:48:27,077 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:48:27,077 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:48:27,078 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:48:27,078 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:48:27,084 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:48:27,085 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:48:27,085 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:48:27,085 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:48:27,085 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:48:27,085 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:48:27,085 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:48:27,085 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:48:27,086 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:48:27,086 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:48:27,086 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:48:27,089 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:48:27,090 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:48:27,107 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:48:27,107 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:48:27,109 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:48:27,110 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:48:27,110 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:48:27,113 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:48:27,113 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:48:27,113 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:48:27,113 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:48:27,113 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:48:27,114 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:48:27,114 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:48:27,114 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:48:27,114 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:48:27,115 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:48:27,115 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:48:27,117 | Training | INFO | Training the model
+2026-05-28 04:48:27,117 | Training | INFO | Fitting the data into the model
+2026-05-28 04:48:29,995 | Training | INFO | Getting the best model
+2026-05-28 04:48:29,995 | Training | INFO | Testing the best model
+2026-05-28 04:48:29,996 | Training | INFO | Testing has been completed
+2026-05-28 04:48:29,996 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:48:29,997 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:48:30,000 | Training | INFO | Model has been successfully saved
+2026-05-28 04:48:30,000 | Training | INFO | Calculating the accuracy
+2026-05-28 04:48:30,001 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:48:30,001 | Training | INFO | Generating the classification report
+2026-05-28 04:48:30,005 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:48:30,006 | Training | INFO | Calculating the recall score
+2026-05-28 04:48:30,007 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:48:30,007 | Training | INFO | Calculating the precision score
+2026-05-28 04:48:30,009 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:48:30,009 | Training | INFO | Calculating the F1 score
+2026-05-28 04:48:30,011 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:48:30,012 | Training | INFO | Generating confusion matrix
+2026-05-28 04:48:30,198 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:48:30,199 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:48:30,199 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:48:30,199 | Testing | INFO | Starting model testing
+2026-05-28 04:48:30,203 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 04:48:30,203 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:48:30,214 | Testing | INFO | Model loaded successfully
+2026-05-28 04:48:30,215 | Testing | INFO | Predictions generated successfully
+2026-05-28 04:48:30,218 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 04:48:30,219 | Testing | INFO | Testing accuracy: 100.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 04:48:30,219 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 04:48:30,219 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 04:48:30,220 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 04:54:04,763 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:54:04,764 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:54:04,764 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:54:04,765 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:54:04,765 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:54:04,777 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:54:04,777 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:54:04,777 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:54:04,777 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:54:04,777 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:54:04,779 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:54:04,779 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:54:04,779 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:54:04,779 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:54:04,779 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:54:04,780 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:54:04,785 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:54:04,785 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:54:04,795 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:54:04,795 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:54:04,796 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:54:04,796 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:54:04,796 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:54:04,798 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:54:04,798 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:54:04,798 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:54:04,798 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:54:04,798 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:54:04,799 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:54:04,799 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:54:04,799 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:54:04,799 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:54:04,799 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:54:04,799 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:54:04,801 | Training | INFO | Training the model
+2026-05-28 04:54:04,801 | Training | INFO | Fitting the data into the model
+2026-05-28 04:54:07,776 | Training | INFO | Getting the best model
+2026-05-28 04:54:07,776 | Training | INFO | Testing the best model
+2026-05-28 04:54:07,777 | Training | INFO | Testing has been completed
+2026-05-28 04:54:07,777 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:54:07,777 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:54:07,781 | Training | INFO | Model has been successfully saved
+2026-05-28 04:54:07,781 | Training | INFO | Calculating the accuracy
+2026-05-28 04:54:07,784 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:54:07,784 | Training | INFO | Generating the classification report
+2026-05-28 04:54:07,789 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:54:07,789 | Training | INFO | Calculating the recall score
+2026-05-28 04:54:07,791 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:54:07,791 | Training | INFO | Calculating the precision score
+2026-05-28 04:54:07,793 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:54:07,793 | Training | INFO | Calculating the F1 score
+2026-05-28 04:54:07,794 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:54:07,795 | Training | INFO | Generating confusion matrix
+2026-05-28 04:54:08,065 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:54:08,065 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:54:08,065 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:54:08,065 | Testing | INFO | Starting model testing
+2026-05-28 04:54:08,069 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 04:54:08,069 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:54:08,079 | Testing | INFO | Model loaded successfully
+2026-05-28 04:54:08,082 | Testing | INFO | Predictions generated successfully
+2026-05-28 04:54:08,089 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 04:54:08,090 | Testing | INFO | Testing accuracy: 100.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 04:54:08,090 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 04:54:08,090 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 04:54:08,091 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 04:56:51,160 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 04:56:51,160 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 04:56:51,160 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 04:56:51,162 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 04:56:51,162 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 04:56:51,185 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 04:56:51,185 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 04:56:51,185 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 04:56:51,185 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 04:56:51,185 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 04:56:51,186 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 04:56:51,186 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 04:56:51,186 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 04:56:51,186 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 04:56:51,186 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 04:56:51,186 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 04:56:51,189 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 04:56:51,189 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 04:56:51,197 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 04:56:51,197 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 04:56:51,198 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 04:56:51,199 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 04:56:51,199 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 04:56:51,200 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 04:56:51,200 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 04:56:51,200 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 04:56:51,200 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 04:56:51,200 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 04:56:51,201 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 04:56:51,201 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:56:51,201 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 04:56:51,201 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 04:56:51,201 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 04:56:51,201 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 04:56:51,203 | Training | INFO | Training the model
+2026-05-28 04:56:51,203 | Training | INFO | Fitting the data into the model
+2026-05-28 04:56:54,191 | Training | INFO | Getting the best model
+2026-05-28 04:56:54,192 | Training | INFO | Testing the best model
+2026-05-28 04:56:54,192 | Training | INFO | Testing has been completed
+2026-05-28 04:56:54,192 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 04:56:54,193 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 04:56:54,195 | Training | INFO | Model has been successfully saved
+2026-05-28 04:56:54,196 | Training | INFO | Calculating the accuracy
+2026-05-28 04:56:54,196 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 04:56:54,197 | Training | INFO | Generating the classification report
+2026-05-28 04:56:54,202 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 04:56:54,203 | Training | INFO | Calculating the recall score
+2026-05-28 04:56:54,205 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 04:56:54,205 | Training | INFO | Calculating the precision score
+2026-05-28 04:56:54,207 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 04:56:54,207 | Training | INFO | Calculating the F1 score
+2026-05-28 04:56:54,208 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 04:56:54,208 | Training | INFO | Generating confusion matrix
+2026-05-28 04:56:54,395 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 04:56:54,396 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 04:56:54,396 | PipelineRunner | INFO | Testing the model
+2026-05-28 04:56:54,396 | Testing | INFO | Starting model testing
+2026-05-28 04:56:54,400 | Testing | INFO | Test dataset created with 100 samples
+2026-05-28 04:56:54,400 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 04:56:54,409 | Testing | INFO | Model loaded successfully
+2026-05-28 04:56:54,411 | Testing | INFO | Predictions generated successfully
+2026-05-28 04:56:54,413 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 04:56:54,414 | Testing | INFO | Testing accuracy: 17.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 04:56:54,414 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 04:56:54,414 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 04:56:54,414 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 05:01:38,080 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:01:38,080 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:01:38,080 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:01:38,082 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:01:38,082 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:01:38,087 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:01:38,087 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:01:38,087 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:01:38,088 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:01:38,088 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:01:38,088 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:01:38,089 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:01:38,089 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:01:38,089 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:01:38,089 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:01:38,089 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:01:38,092 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:01:38,092 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:01:38,100 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:01:38,100 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:01:38,101 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:01:38,101 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:01:38,101 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:01:38,103 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:01:38,104 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:01:38,104 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 05:01:38,104 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:01:38,104 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:01:38,105 | Training | INFO | Training the model
+2026-05-28 05:01:38,106 | Training | INFO | Fitting the data into the model
+2026-05-28 05:01:41,086 | Training | INFO | Getting the best model
+2026-05-28 05:01:41,087 | Training | INFO | Testing the best model
+2026-05-28 05:01:41,088 | Training | INFO | Testing has been completed
+2026-05-28 05:01:41,089 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 05:01:41,089 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 05:01:41,092 | Training | INFO | Model has been successfully saved
+2026-05-28 05:01:41,092 | Training | INFO | Calculating the accuracy
+2026-05-28 05:01:41,093 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 05:01:41,093 | Training | INFO | Generating the classification report
+2026-05-28 05:01:41,099 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 05:01:41,099 | Training | INFO | Calculating the recall score
+2026-05-28 05:01:41,101 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 05:01:41,101 | Training | INFO | Calculating the precision score
+2026-05-28 05:01:41,102 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 05:01:41,103 | Training | INFO | Calculating the F1 score
+2026-05-28 05:01:41,104 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 05:01:41,104 | Training | INFO | Generating confusion matrix
+2026-05-28 05:01:41,292 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 05:01:41,292 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 05:01:41,293 | PipelineRunner | INFO | Testing the model
+2026-05-28 05:01:41,293 | Testing | INFO | Starting model testing
+2026-05-28 05:01:41,296 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 05:01:41,296 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 05:01:41,305 | Testing | INFO | Model loaded successfully
+2026-05-28 05:01:41,307 | Testing | INFO | Predictions generated successfully
+2026-05-28 05:01:41,310 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 05:01:41,311 | Testing | INFO | Testing accuracy: 60.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 05:01:41,311 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 05:01:41,311 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 05:01:41,311 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 05:03:57,955 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:03:57,955 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:03:57,956 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:03:57,957 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:03:57,957 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:03:57,963 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:03:57,963 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:03:57,963 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:03:57,964 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:03:57,964 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:03:57,964 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:03:57,964 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:03:57,964 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:03:57,965 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:03:57,965 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:03:57,965 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:03:57,967 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:03:57,967 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:03:57,977 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:03:57,977 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:03:57,978 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:03:57,978 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:03:57,978 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:03:57,980 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:03:57,980 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:03:57,980 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 05:03:57,980 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 05:03:57,980 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:03:57,981 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:03:57,981 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:03:57,981 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:03:57,981 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 05:03:57,981 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:03:57,981 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:03:57,982 | Training | INFO | Training the model
+2026-05-28 05:03:57,982 | Training | INFO | Fitting the data into the model
+2026-05-28 05:04:00,971 | Training | INFO | Getting the best model
+2026-05-28 05:04:00,971 | Training | INFO | Testing the best model
+2026-05-28 05:04:00,972 | Training | INFO | Testing has been completed
+2026-05-28 05:04:00,973 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 05:04:00,973 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 05:04:00,975 | Training | INFO | Model has been successfully saved
+2026-05-28 05:04:00,976 | Training | INFO | Calculating the accuracy
+2026-05-28 05:04:00,976 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 05:04:00,976 | Training | INFO | Generating the classification report
+2026-05-28 05:04:00,981 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 05:04:00,981 | Training | INFO | Calculating the recall score
+2026-05-28 05:04:00,983 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 05:04:00,983 | Training | INFO | Calculating the precision score
+2026-05-28 05:04:00,985 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 05:04:00,985 | Training | INFO | Calculating the F1 score
+2026-05-28 05:04:00,987 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 05:04:00,987 | Training | INFO | Generating confusion matrix
+2026-05-28 05:04:01,173 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 05:04:01,174 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 05:04:01,174 | PipelineRunner | INFO | Testing the model
+2026-05-28 05:04:01,174 | Testing | INFO | Starting model testing
+2026-05-28 05:04:01,177 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 05:04:01,177 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 05:04:01,186 | Testing | INFO | Model loaded successfully
+2026-05-28 05:04:01,188 | Testing | INFO | Predictions generated successfully
+2026-05-28 05:04:01,191 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 05:04:01,192 | Testing | INFO | Testing accuracy: 50.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 05:04:01,192 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 05:04:01,192 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 05:04:01,193 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 05:10:52,825 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:10:52,825 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:10:52,826 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:10:52,827 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:10:52,827 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:10:52,842 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:10:52,842 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:10:52,842 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:10:52,843 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:10:52,843 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:10:52,846 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:10:52,846 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:10:52,846 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:10:52,846 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:10:52,846 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:10:52,846 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:10:52,856 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:10:52,856 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:10:52,868 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:10:52,868 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:10:52,869 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:10:52,869 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:10:52,869 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:10:52,871 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 05:10:52,872 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:10:52,872 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:10:52,873 | Training | INFO | Training the model
+2026-05-28 05:10:52,873 | Training | INFO | Fitting the data into the model
+2026-05-28 05:10:59,486 | Training | INFO | Getting the best model
+2026-05-28 05:10:59,487 | Training | INFO | Testing the best model
+2026-05-28 05:10:59,488 | Training | INFO | Testing has been completed
+2026-05-28 05:10:59,488 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 05:10:59,488 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 05:10:59,492 | Training | INFO | Model has been successfully saved
+2026-05-28 05:10:59,492 | Training | INFO | Calculating the accuracy
+2026-05-28 05:10:59,493 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 05:10:59,493 | Training | INFO | Generating the classification report
+2026-05-28 05:10:59,498 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 05:10:59,498 | Training | INFO | Calculating the recall score
+2026-05-28 05:10:59,500 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 05:10:59,500 | Training | INFO | Calculating the precision score
+2026-05-28 05:10:59,502 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 05:10:59,502 | Training | INFO | Calculating the F1 score
+2026-05-28 05:10:59,503 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 05:10:59,504 | Training | INFO | Generating confusion matrix
+2026-05-28 05:10:59,783 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 05:10:59,784 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 05:10:59,784 | PipelineRunner | INFO | Testing the model
+2026-05-28 05:10:59,784 | Testing | INFO | Starting model testing
+2026-05-28 05:10:59,787 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 05:10:59,787 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 05:10:59,799 | Testing | INFO | Model loaded successfully
+2026-05-28 05:10:59,801 | Testing | INFO | Predictions generated successfully
+2026-05-28 05:10:59,807 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 05:10:59,808 | Testing | INFO | Testing accuracy: 50.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 05:10:59,808 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 05:10:59,808 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 05:10:59,808 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 05:13:47,089 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:13:47,089 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:13:47,089 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:13:47,090 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:13:47,091 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:13:47,096 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:13:47,096 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:13:47,097 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:13:47,097 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:13:47,097 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:13:47,097 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:13:47,098 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:13:47,098 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:13:47,098 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:13:47,098 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:13:47,098 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:13:47,100 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:13:47,101 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:13:47,105 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:13:47,105 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:13:47,106 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:13:47,106 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:13:47,106 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:13:47,108 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:13:47,108 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:13:47,108 | Pipelinebuilder | INFO | Building the decision tree pipeline
+2026-05-28 05:13:47,108 | Pipelinebuilder | INFO | Successfully built the decision tree pipeline
+2026-05-28 05:13:47,108 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:13:47,109 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:13:47,109 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:13:47,109 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the decision tree pipeline
+2026-05-28 05:13:47,109 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the decision tree pipeline
+2026-05-28 05:13:47,109 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:13:47,109 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:13:47,111 | Training | INFO | Training the model
+2026-05-28 05:13:47,111 | Training | INFO | Fitting the data into the model
+2026-05-28 05:13:53,876 | Training | INFO | Getting the best model
+2026-05-28 05:13:53,876 | Training | INFO | Testing the best model
+2026-05-28 05:13:53,877 | Training | INFO | Testing has been completed
+2026-05-28 05:13:53,877 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 05:13:53,877 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 05:13:53,880 | Training | INFO | Model has been successfully saved
+2026-05-28 05:13:53,880 | Training | INFO | Calculating the accuracy
+2026-05-28 05:13:53,881 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 05:13:53,881 | Training | INFO | Generating the classification report
+2026-05-28 05:13:53,886 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 05:13:53,887 | Training | INFO | Calculating the recall score
+2026-05-28 05:13:53,889 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 05:13:53,889 | Training | INFO | Calculating the precision score
+2026-05-28 05:13:53,892 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 05:13:53,892 | Training | INFO | Calculating the F1 score
+2026-05-28 05:13:53,894 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 05:13:53,894 | Training | INFO | Generating confusion matrix
+2026-05-28 05:13:54,085 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 05:13:54,085 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 05:13:54,085 | PipelineRunner | INFO | Testing the model
+2026-05-28 05:13:54,085 | Testing | INFO | Starting model testing
+2026-05-28 05:13:54,088 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 05:13:54,088 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 05:13:54,097 | Testing | INFO | Model loaded successfully
+2026-05-28 05:13:54,098 | Testing | INFO | Predictions generated successfully
+2026-05-28 05:13:54,101 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 05:13:54,101 | Testing | INFO | Testing accuracy: 80.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 05:13:54,101 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 05:13:54,102 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 05:13:54,102 | Main | INFO | Ml build pipeline has been completed
+2026-05-28 05:57:59,317 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:57:59,318 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:57:59,318 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:57:59,320 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:57:59,320 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:57:59,331 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:57:59,331 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:57:59,331 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:57:59,332 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:57:59,332 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:57:59,333 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:57:59,333 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:57:59,333 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:57:59,333 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:57:59,333 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:57:59,333 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:57:59,338 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:57:59,338 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:57:59,342 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:57:59,342 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:57:59,343 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:57:59,343 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:57:59,343 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:57:59,345 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:57:59,346 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:57:59,346 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:57:59,346 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:57:59,346 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:57:59,346 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:57:59,348 | Training | INFO | Training the model
+2026-05-28 05:57:59,348 | Training | INFO | Fitting the data into the model
+2026-05-28 05:59:54,153 | Main | INFO | Starting the Ml build pipeline
+2026-05-28 05:59:54,154 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-28 05:59:54,154 | PipelineRunner | INFO | Loading the configurations
+2026-05-28 05:59:54,155 | PipelineRunner | INFO | Fetched the Data path
+2026-05-28 05:59:54,155 | PipelineRunner | INFO | Reading the Data file
+2026-05-28 05:59:54,161 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-28 05:59:54,161 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-28 05:59:54,162 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-28 05:59:54,162 | validaation | INFO | All the columns are present in the dataset
+2026-05-28 05:59:54,162 | validaation | INFO | Renaming the columns in the dataset
+2026-05-28 05:59:54,162 | validaation | INFO | Columns have been renamed successfully
+2026-05-28 05:59:54,162 | PipelineRunner | INFO | Data Validation completed
+2026-05-28 05:59:54,162 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-28 05:59:54,162 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-28 05:59:54,162 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-28 05:59:54,162 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-28 05:59:54,165 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-28 05:59:54,165 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-28 05:59:54,169 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-28 05:59:54,169 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-28 05:59:54,171 | Data Augmentation | INFO | Merging completed successfully
+2026-05-28 05:59:54,171 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-28 05:59:54,171 | PipelineRunner | INFO | Building the pipeline
+2026-05-28 05:59:54,172 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-28 05:59:54,172 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:59:54,173 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-28 05:59:54,173 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-28 05:59:54,173 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-28 05:59:54,175 | Training | INFO | Training the model
+2026-05-28 05:59:54,175 | Training | INFO | Fitting the data into the model
+2026-05-28 06:10:00,325 | Training | INFO | Getting the best model
+2026-05-28 06:10:00,334 | Training | INFO | Testing the best model
+2026-05-28 06:10:00,341 | Training | INFO | Testing has been completed
+2026-05-28 06:10:00,341 | Training | INFO | Retrieveing the path to save the model
+2026-05-28 06:10:00,342 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-28 06:10:00,382 | Training | INFO | Model has been successfully saved
+2026-05-28 06:10:00,382 | Training | INFO | Calculating the accuracy
+2026-05-28 06:10:00,387 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-28 06:10:00,387 | Training | INFO | Generating the classification report
+2026-05-28 06:10:00,395 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-28 06:10:00,395 | Training | INFO | Calculating the recall score
+2026-05-28 06:10:00,398 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-28 06:10:00,398 | Training | INFO | Calculating the precision score
+2026-05-28 06:10:00,402 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-28 06:10:00,402 | Training | INFO | Calculating the F1 score
+2026-05-28 06:10:00,406 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-28 06:10:00,406 | Training | INFO | Generating confusion matrix
+2026-05-28 06:10:02,035 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-28 06:10:02,035 | PipelineRunner | INFO | Model training has been completed
+2026-05-28 06:10:02,036 | PipelineRunner | INFO | Testing the model
+2026-05-28 06:10:02,036 | Testing | INFO | Starting model testing
+2026-05-28 06:10:02,067 | Testing | INFO | Test dataset created with 10 samples
+2026-05-28 06:10:02,067 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-28 06:10:02,108 | Testing | INFO | Model loaded successfully
+2026-05-28 06:10:02,116 | Testing | INFO | Predictions generated successfully
+2026-05-28 06:10:02,137 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-28 06:10:02,139 | Testing | INFO | Testing accuracy: 90.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-28 06:10:02,140 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-28 06:10:02,140 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-28 06:10:02,144 | Main | INFO | Ml build pipeline has been completed
+2026-05-30 07:45:52,662 | Main | INFO | Starting the Ml build pipeline
+2026-05-30 07:45:52,663 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-30 07:45:52,663 | PipelineRunner | INFO | Loading the configurations
+2026-05-30 07:45:52,665 | PipelineRunner | INFO | Fetched the Data path
+2026-05-30 07:45:52,665 | PipelineRunner | INFO | Reading the Data file
+2026-05-30 07:45:52,718 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-30 07:45:52,719 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-30 07:45:52,719 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-30 07:45:52,719 | validaation | INFO | All the columns are present in the dataset
+2026-05-30 07:45:52,719 | validaation | INFO | Renaming the columns in the dataset
+2026-05-30 07:45:52,721 | validaation | INFO | Columns have been renamed successfully
+2026-05-30 07:45:52,721 | PipelineRunner | INFO | Data Validation completed
+2026-05-30 07:45:52,721 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-30 07:45:52,721 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-30 07:45:52,721 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-30 07:45:52,721 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-30 07:45:52,752 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-30 07:45:52,752 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-30 07:45:52,757 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-30 07:45:52,758 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-30 07:45:52,759 | Data Augmentation | INFO | Merging completed successfully
+2026-05-30 07:45:52,759 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-30 07:45:52,759 | PipelineRunner | INFO | Building the pipeline
+2026-05-30 07:45:52,761 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-30 07:45:52,761 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-30 07:45:52,761 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-30 07:45:52,761 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-30 07:45:52,762 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-30 07:45:52,762 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-30 07:45:52,762 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-30 07:45:52,762 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-30 07:45:52,762 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-30 07:45:52,762 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-30 07:45:52,762 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-30 07:45:52,764 | Training | INFO | Training the model
+2026-05-30 07:45:52,764 | Training | INFO | Fitting the data into the model
+2026-05-30 07:53:52,061 | Training | INFO | Getting the best model
+2026-05-30 07:53:52,066 | Training | INFO | Testing the best model
+2026-05-30 07:53:52,073 | Training | INFO | Testing has been completed
+2026-05-30 07:53:52,074 | Training | INFO | Retrieveing the path to save the model
+2026-05-30 07:53:52,074 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-30 07:53:52,102 | Training | INFO | Model has been successfully saved
+2026-05-30 07:53:52,102 | Training | INFO | Calculating the accuracy
+2026-05-30 07:53:52,107 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-30 07:53:52,107 | Training | INFO | Generating the classification report
+2026-05-30 07:53:52,113 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-30 07:53:52,113 | Training | INFO | Calculating the recall score
+2026-05-30 07:53:52,116 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-30 07:53:52,116 | Training | INFO | Calculating the precision score
+2026-05-30 07:53:52,118 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-30 07:53:52,118 | Training | INFO | Calculating the F1 score
+2026-05-30 07:53:52,120 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-30 07:53:52,120 | Training | INFO | Generating confusion matrix
+2026-05-30 07:53:53,660 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-30 07:53:53,660 | PipelineRunner | INFO | Model training has been completed
+2026-05-30 07:53:53,661 | PipelineRunner | INFO | Testing the model
+2026-05-30 07:53:53,661 | Testing | INFO | Starting model testing
+2026-05-30 07:53:53,667 | Testing | INFO | Test dataset created with 10 samples
+2026-05-30 07:53:53,667 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-30 07:53:53,695 | Testing | INFO | Model loaded successfully
+2026-05-30 07:53:53,707 | Testing | INFO | Predictions generated successfully
+2026-05-30 07:53:53,718 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-30 07:53:53,719 | Testing | INFO | Testing accuracy: 90.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-30 07:53:53,719 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-30 07:53:53,719 | PipelineRunner | INFO | Starting Neural Network Pipeline
+2026-05-30 07:53:53,720 | PipelineRunner | INFO | Starting to standardize the data
+2026-05-30 07:53:53,722 | Neural Network Preprocessing | INFO | Creating the Standard Scaler model
+2026-05-30 07:53:53,722 | Neural Network Preprocessing | INFO | Fitting and Transforming the data for the scaler
+2026-05-30 07:53:53,725 | Neural Network Preprocessing | INFO | Saving the scaler model to the path
+2026-05-30 07:53:53,727 | Neural Network Preprocessing | INFO | Scaler model has been successfully saved
+2026-05-30 07:53:53,727 | Neural Network Preprocessing | INFO | Transforming the test data using the scaler
+2026-05-30 07:53:53,728 | Neural Network Preprocessing | INFO | Creating the tensors
+2026-05-30 07:53:53,761 | Neural Network Preprocessing | INFO | Tensors has been created successfully
+2026-05-30 07:53:53,762 | PipelineRunner | INFO | Standardization of the data completed
+2026-05-30 07:53:53,762 | PipelineRunner | INFO | Starting the train the neural network model
+2026-05-30 07:53:53,765 | Training Neural Network | INFO | Loading the Learning Rate
+2026-05-30 07:53:53,765 | Training Neural Network | INFO | Loading the model
+2026-05-30 07:53:53,780 | Training Neural Network | INFO | Model Loading has been completed
+2026-05-30 07:53:53,780 | Training Neural Network | INFO | Creating the loss criteria
+2026-05-30 07:53:53,780 | Training Neural Network | INFO | Loss criteria has been created as BCELoss
+2026-05-30 07:53:53,780 | Training Neural Network | INFO | Fitting the Optimizer and the learning rate
+2026-05-30 07:53:55,573 | Training Neural Network | INFO | Optimizer initialized
+2026-05-30 07:53:55,573 | Training Neural Network | INFO | Loading the Epoch
+2026-05-30 07:53:55,573 | Training Neural Network | INFO | Epoch rate has been loaded as 1000
+2026-05-30 07:53:55,574 | Training Neural Network | INFO | Starting the Epochs Trainings
+2026-05-30 07:54:01,971 | Training Neural Network | INFO | Training has been completed
+2026-05-30 07:54:01,972 | Training Neural Network | INFO | Saving the model
+2026-05-30 07:54:01,989 | Training Neural Network | INFO | Neural Network model has been saved successfully
+2026-05-30 07:54:01,989 | Training Neural Network | INFO | Testing the Neural Network Model
+2026-05-30 07:54:01,995 | Training Neural Network | INFO | Testing has been completed
+2026-05-30 07:54:01,995 | Training Neural Network | INFO | Generating the Classification Report
+2026-05-30 07:54:02,006 | Training Neural Network | INFO | Classification report for the neural network model has been generated successfully
+2026-05-30 07:54:02,007 | Training Neural Network | INFO | Calculating the recall score
+2026-05-30 07:54:02,010 | Training Neural Network | INFO | Recall Score has been calculated successfully 0.9965397923875432
+2026-05-30 07:54:02,011 | Training Neural Network | INFO | Calculating the accuracy score
+2026-05-30 07:54:02,013 | Training Neural Network | INFO | Accuracy Score has been calculated successfully 0.9775474956822107
+2026-05-30 07:54:02,013 | Training Neural Network | INFO | Calculating the precision score
+2026-05-30 07:54:02,018 | Training Neural Network | INFO | Precision Score has been calculated successfully 0.96
+2026-05-30 07:54:02,019 | Training Neural Network | INFO | Calculating the f1 score
+2026-05-30 07:54:02,022 | Training Neural Network | INFO | F1 Score has been calculated successfully 0.9779286926994907
+2026-05-30 07:54:02,023 | Training Neural Network | INFO | Generating the Confusion matrix for the Neural Network
+2026-05-30 07:54:02,188 | Training Neural Network | INFO | Confusion matrix Genrated and Saved successfully
+2026-05-30 07:54:02,189 | PipelineRunner | INFO | Neural network Training has been completed
+2026-05-30 07:54:02,189 | PipelineRunner | INFO | Starting to test the Neural Network Model
+2026-05-30 07:54:02,192 | Testing the Neural Network | INFO | Loading the scaler model
+2026-05-30 07:54:02,206 | Testing the Neural Network | INFO | Scaler model loaded successfully
+2026-05-30 07:54:02,207 | Testing the Neural Network | INFO | Loading the neural network model
+2026-05-30 07:54:02,208 | Testing the Neural Network | INFO | Neural Network model loaded successfully
+2026-05-30 07:54:02,208 | Testing the Neural Network | INFO | Loading the Nueral Network Weights
+2026-05-30 07:54:02,237 | Testing the Neural Network | INFO | Nueral Network Weights loaded successfully
+2026-05-30 07:54:02,237 | Testing the Neural Network | INFO | Starting the Neural Network Model evaluation
+2026-05-30 07:54:02,237 | Testing the Neural Network | INFO | Changed to Evaluate Mode
+2026-05-30 07:54:02,237 | Testing the Neural Network | INFO | Creating the sample test case
+2026-05-30 07:54:02,237 | Testing the Neural Network | INFO | Sample test case created
+2026-05-30 07:54:02,238 | Testing the Neural Network | INFO | Scaling the sample test case
+2026-05-30 07:54:02,239 | Testing the Neural Network | INFO | Sample test case has been scaled
+2026-05-30 07:54:02,239 | Testing the Neural Network | INFO | Converting the data to torch tensor
+2026-05-30 07:54:02,239 | Testing the Neural Network | INFO | Converted successfully
+2026-05-30 07:54:02,239 | Testing the Neural Network | INFO | Predicting the test samples
+2026-05-30 07:54:02,240 | Testing the Neural Network | INFO | Prediction completed
+2026-05-30 07:54:02,242 | Testing the Neural Network | INFO | Calculating the accuracy score
+2026-05-30 07:54:02,247 | Testing the Neural Network | ERROR | Error during Neural Network model testing: write() argument must be str, not float
+2026-05-30 07:54:02,247 | PipelineRunner | ERROR | Error during pipeline execution: Neural Network Testing failed
+2026-05-30 07:54:02,249 | Main | ERROR | The Ml Build Pipeline has failed
+2026-05-30 08:10:53,124 | Main | INFO | Starting the Ml build pipeline
+2026-05-30 08:10:53,124 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-30 08:10:53,124 | PipelineRunner | INFO | Loading the configurations
+2026-05-30 08:10:53,125 | PipelineRunner | INFO | Fetched the Data path
+2026-05-30 08:10:53,126 | PipelineRunner | INFO | Reading the Data file
+2026-05-30 08:10:53,135 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-30 08:10:53,136 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-30 08:10:53,136 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-30 08:10:53,136 | validaation | INFO | All the columns are present in the dataset
+2026-05-30 08:10:53,136 | validaation | INFO | Renaming the columns in the dataset
+2026-05-30 08:10:53,136 | validaation | INFO | Columns have been renamed successfully
+2026-05-30 08:10:53,136 | PipelineRunner | INFO | Data Validation completed
+2026-05-30 08:10:53,137 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-30 08:10:53,137 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-30 08:10:53,137 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-30 08:10:53,137 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-30 08:10:53,140 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-30 08:10:53,140 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-30 08:10:53,144 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-30 08:10:53,144 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-30 08:10:53,145 | Data Augmentation | INFO | Merging completed successfully
+2026-05-30 08:10:53,146 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-30 08:10:53,146 | PipelineRunner | INFO | Building the pipeline
+2026-05-30 08:10:53,147 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-30 08:10:53,148 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-30 08:10:53,148 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-30 08:10:53,148 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-30 08:10:53,150 | Training | INFO | Training the model
+2026-05-30 08:10:53,150 | Training | INFO | Fitting the data into the model
+2026-05-30 08:19:12,145 | Training | INFO | Getting the best model
+2026-05-30 08:19:12,156 | Training | INFO | Testing the best model
+2026-05-30 08:19:12,164 | Training | INFO | Testing has been completed
+2026-05-30 08:19:12,164 | Training | INFO | Retrieveing the path to save the model
+2026-05-30 08:19:12,164 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-30 08:19:12,191 | Training | INFO | Model has been successfully saved
+2026-05-30 08:19:12,191 | Training | INFO | Calculating the accuracy
+2026-05-30 08:19:12,194 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-30 08:19:12,194 | Training | INFO | Generating the classification report
+2026-05-30 08:19:12,200 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-30 08:19:12,200 | Training | INFO | Calculating the recall score
+2026-05-30 08:19:12,203 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-30 08:19:12,203 | Training | INFO | Calculating the precision score
+2026-05-30 08:19:12,205 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-30 08:19:12,205 | Training | INFO | Calculating the F1 score
+2026-05-30 08:19:12,209 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-30 08:19:12,209 | Training | INFO | Generating confusion matrix
+2026-05-30 08:19:12,762 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-30 08:19:12,763 | PipelineRunner | INFO | Model training has been completed
+2026-05-30 08:19:12,763 | PipelineRunner | INFO | Testing the model
+2026-05-30 08:19:12,763 | Testing | INFO | Starting model testing
+2026-05-30 08:19:12,773 | Testing | INFO | Test dataset created with 10 samples
+2026-05-30 08:19:12,774 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-30 08:19:12,866 | Testing | INFO | Model loaded successfully
+2026-05-30 08:19:12,881 | Testing | INFO | Predictions generated successfully
+2026-05-30 08:19:12,892 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-30 08:19:12,894 | Testing | INFO | Testing accuracy: 90.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-30 08:19:12,894 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-30 08:19:12,895 | PipelineRunner | INFO | Starting Neural Network Pipeline
+2026-05-30 08:19:12,895 | PipelineRunner | INFO | Starting to standardize the data
+2026-05-30 08:19:12,897 | Neural Network Preprocessing | INFO | Creating the Standard Scaler model
+2026-05-30 08:19:12,897 | Neural Network Preprocessing | INFO | Fitting and Transforming the data for the scaler
+2026-05-30 08:19:12,900 | Neural Network Preprocessing | INFO | Saving the scaler model to the path
+2026-05-30 08:19:12,902 | Neural Network Preprocessing | INFO | Scaler model has been successfully saved
+2026-05-30 08:19:12,902 | Neural Network Preprocessing | INFO | Transforming the test data using the scaler
+2026-05-30 08:19:12,903 | Neural Network Preprocessing | INFO | Creating the tensors
+2026-05-30 08:19:12,947 | Neural Network Preprocessing | INFO | Tensors has been created successfully
+2026-05-30 08:19:12,948 | PipelineRunner | INFO | Standardization of the data completed
+2026-05-30 08:19:12,948 | PipelineRunner | INFO | Starting the train the neural network model
+2026-05-30 08:19:12,951 | Training Neural Network | INFO | Loading the Learning Rate
+2026-05-30 08:19:12,951 | Training Neural Network | INFO | Loading the model
+2026-05-30 08:19:12,996 | Training Neural Network | INFO | Model Loading has been completed
+2026-05-30 08:19:12,996 | Training Neural Network | INFO | Creating the loss criteria
+2026-05-30 08:19:12,996 | Training Neural Network | INFO | Loss criteria has been created as BCELoss
+2026-05-30 08:19:12,996 | Training Neural Network | INFO | Fitting the Optimizer and the learning rate
+2026-05-30 08:19:14,598 | Training Neural Network | INFO | Optimizer initialized
+2026-05-30 08:19:14,598 | Training Neural Network | INFO | Loading the Epoch
+2026-05-30 08:19:14,598 | Training Neural Network | INFO | Epoch rate has been loaded as 1000
+2026-05-30 08:19:14,598 | Training Neural Network | INFO | Starting the Epochs Trainings
+2026-05-30 08:19:21,036 | Training Neural Network | INFO | Training has been completed
+2026-05-30 08:19:21,037 | Training Neural Network | INFO | Saving the model
+2026-05-30 08:19:21,054 | Training Neural Network | INFO | Neural Network model has been saved successfully
+2026-05-30 08:19:21,054 | Training Neural Network | INFO | Testing the Neural Network Model
+2026-05-30 08:19:21,069 | Training Neural Network | INFO | Testing has been completed
+2026-05-30 08:19:21,069 | Training Neural Network | INFO | Generating the Classification Report
+2026-05-30 08:19:21,083 | Training Neural Network | INFO | Classification report for the neural network model has been generated successfully
+2026-05-30 08:19:21,084 | Training Neural Network | INFO | Calculating the recall score
+2026-05-30 08:19:21,088 | Training Neural Network | INFO | Recall Score has been calculated successfully 0.9965397923875432
+2026-05-30 08:19:21,088 | Training Neural Network | INFO | Calculating the accuracy score
+2026-05-30 08:19:21,090 | Training Neural Network | INFO | Accuracy Score has been calculated successfully 0.9758203799654577
+2026-05-30 08:19:21,090 | Training Neural Network | INFO | Calculating the precision score
+2026-05-30 08:19:21,094 | Training Neural Network | INFO | Precision Score has been calculated successfully 0.9568106312292359
+2026-05-30 08:19:21,095 | Training Neural Network | INFO | Calculating the f1 score
+2026-05-30 08:19:21,099 | Training Neural Network | INFO | F1 Score has been calculated successfully 0.976271186440678
+2026-05-30 08:19:21,100 | Training Neural Network | INFO | Generating the Confusion matrix for the Neural Network
+2026-05-30 08:19:21,293 | Training Neural Network | INFO | Confusion matrix Genrated and Saved successfully
+2026-05-30 08:19:21,293 | PipelineRunner | INFO | Neural network Training has been completed
+2026-05-30 08:19:21,294 | PipelineRunner | INFO | Starting to test the Neural Network Model
+2026-05-30 08:19:21,296 | Testing the Neural Network | INFO | Loading the scaler model
+2026-05-30 08:19:21,321 | Testing the Neural Network | INFO | Scaler model loaded successfully
+2026-05-30 08:19:21,321 | Testing the Neural Network | INFO | Loading the neural network model
+2026-05-30 08:19:21,322 | Testing the Neural Network | INFO | Neural Network model loaded successfully
+2026-05-30 08:19:21,322 | Testing the Neural Network | INFO | Loading the Nueral Network Weights
+2026-05-30 08:19:21,354 | Testing the Neural Network | INFO | Nueral Network Weights loaded successfully
+2026-05-30 08:19:21,354 | Testing the Neural Network | INFO | Starting the Neural Network Model evaluation
+2026-05-30 08:19:21,354 | Testing the Neural Network | INFO | Changed to Evaluate Mode
+2026-05-30 08:19:21,354 | Testing the Neural Network | INFO | Creating the sample test case
+2026-05-30 08:19:21,355 | Testing the Neural Network | INFO | Sample test case created
+2026-05-30 08:19:21,356 | Testing the Neural Network | INFO | Scaling the sample test case
+2026-05-30 08:19:21,357 | Testing the Neural Network | INFO | Sample test case has been scaled
+2026-05-30 08:19:21,357 | Testing the Neural Network | INFO | Converting the data to torch tensor
+2026-05-30 08:19:21,357 | Testing the Neural Network | INFO | Converted successfully
+2026-05-30 08:19:21,357 | Testing the Neural Network | INFO | Predicting the test samples
+2026-05-30 08:19:21,358 | Testing the Neural Network | INFO | Prediction completed
+2026-05-30 08:19:21,359 | Testing the Neural Network | INFO | Calculating the accuracy score
+2026-05-30 08:19:21,363 | Testing the Neural Network | INFO | Accuracy score has been calculated for the test sample 0.9
+2026-05-30 08:19:21,363 | PipelineRunner | INFO | Neural Network Model testing has been completed
+2026-05-30 08:19:21,363 | PipelineRunner | INFO | Neural Network Pipeline run Completed
+2026-05-30 08:19:21,364 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-30 08:19:21,366 | Main | INFO | Ml build pipeline has been completed
+2026-05-30 13:41:00,239 | Main | INFO | Starting the Ml build pipeline
+2026-05-30 13:41:00,240 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-30 13:41:00,240 | PipelineRunner | INFO | Loading the configurations
+2026-05-30 13:41:00,242 | PipelineRunner | INFO | Fetched the Data path
+2026-05-30 13:41:00,242 | PipelineRunner | INFO | Reading the Data file
+2026-05-30 13:41:00,285 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-30 13:41:00,285 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-30 13:41:00,285 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-30 13:41:00,285 | validaation | INFO | All the columns are present in the dataset
+2026-05-30 13:41:00,285 | validaation | INFO | Renaming the columns in the dataset
+2026-05-30 13:41:00,289 | validaation | INFO | Columns have been renamed successfully
+2026-05-30 13:41:00,289 | PipelineRunner | INFO | Data Validation completed
+2026-05-30 13:41:00,289 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-30 13:41:00,289 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-30 13:41:00,289 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-30 13:41:00,289 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-30 13:41:00,297 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-30 13:41:00,297 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-30 13:41:00,302 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-30 13:41:00,302 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-30 13:41:00,303 | Data Augmentation | INFO | Merging completed successfully
+2026-05-30 13:41:00,303 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-30 13:41:00,303 | PipelineRunner | INFO | Building the pipeline
+2026-05-30 13:41:00,305 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-30 13:41:00,305 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-30 13:41:00,305 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-30 13:41:00,305 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-30 13:41:00,306 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-30 13:41:00,306 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-30 13:41:00,306 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-30 13:41:00,306 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-30 13:41:00,306 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-30 13:41:00,306 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-30 13:41:00,306 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-30 13:41:00,308 | Training | INFO | Training the model
+2026-05-30 13:41:00,308 | Training | INFO | Fitting the data into the model
+2026-05-30 13:55:13,943 | Training | INFO | Getting the best model
+2026-05-30 13:55:13,953 | Training | INFO | Testing the best model
+2026-05-30 13:55:13,976 | Training | INFO | Testing has been completed
+2026-05-30 13:55:13,977 | Training | INFO | Retrieveing the path to save the model
+2026-05-30 13:55:13,977 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-30 13:55:14,058 | Training | INFO | Model has been successfully saved
+2026-05-30 13:55:14,058 | Training | INFO | Calculating the accuracy
+2026-05-30 13:55:14,061 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-30 13:55:14,061 | Training | INFO | Generating the classification report
+2026-05-30 13:55:14,068 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-30 13:55:14,068 | Training | INFO | Calculating the recall score
+2026-05-30 13:55:14,073 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-30 13:55:14,073 | Training | INFO | Calculating the precision score
+2026-05-30 13:55:14,077 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-30 13:55:14,077 | Training | INFO | Calculating the F1 score
+2026-05-30 13:55:14,080 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-30 13:55:14,080 | Training | INFO | Generating confusion matrix
+2026-05-30 13:55:15,891 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-30 13:55:15,891 | PipelineRunner | INFO | Model training has been completed
+2026-05-30 13:55:15,892 | PipelineRunner | INFO | Testing the model
+2026-05-30 13:55:15,892 | Testing | INFO | Starting model testing
+2026-05-30 13:55:15,898 | Testing | INFO | Test dataset created with 10 samples
+2026-05-30 13:55:15,898 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-30 13:55:15,969 | Testing | INFO | Model loaded successfully
+2026-05-30 13:55:15,995 | Testing | INFO | Predictions generated successfully
+2026-05-30 13:55:16,007 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-30 13:55:16,009 | Testing | INFO | Testing accuracy: 80.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-30 13:55:16,010 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-30 13:55:16,010 | PipelineRunner | INFO | Starting Neural Network Pipeline
+2026-05-30 13:55:16,010 | PipelineRunner | INFO | Starting to standardize the data
+2026-05-30 13:55:16,013 | Neural Network Preprocessing | INFO | Creating the Standard Scaler model
+2026-05-30 13:55:16,013 | Neural Network Preprocessing | INFO | Fitting and Transforming the data for the scaler
+2026-05-30 13:55:16,018 | Neural Network Preprocessing | INFO | Saving the scaler model to the path
+2026-05-30 13:55:16,020 | Neural Network Preprocessing | INFO | Scaler model has been successfully saved
+2026-05-30 13:55:16,020 | Neural Network Preprocessing | INFO | Transforming the test data using the scaler
+2026-05-30 13:55:16,023 | Neural Network Preprocessing | INFO | Creating the tensors
+2026-05-30 13:55:16,071 | Neural Network Preprocessing | INFO | Tensors has been created successfully
+2026-05-30 13:55:16,072 | PipelineRunner | INFO | Standardization of the data completed
+2026-05-30 13:55:16,073 | PipelineRunner | INFO | Starting the train the neural network model
+2026-05-30 13:55:16,078 | Training Neural Network | INFO | Loading the Learning Rate
+2026-05-30 13:55:16,079 | Training Neural Network | INFO | Loading the model
+2026-05-30 13:55:16,106 | Training Neural Network | INFO | Model Loading has been completed
+2026-05-30 13:55:16,107 | Training Neural Network | INFO | Creating the loss criteria
+2026-05-30 13:55:16,107 | Training Neural Network | INFO | Loss criteria has been created as BCELoss
+2026-05-30 13:55:16,107 | Training Neural Network | INFO | Fitting the Optimizer and the learning rate
+2026-05-30 13:55:18,748 | Training Neural Network | INFO | Optimizer initialized
+2026-05-30 13:55:18,748 | Training Neural Network | INFO | Loading the Epoch
+2026-05-30 13:55:18,748 | Training Neural Network | INFO | Epoch rate has been loaded as 1000
+2026-05-30 13:55:18,748 | Training Neural Network | INFO | Starting the Epochs Trainings
+2026-05-30 13:55:25,971 | Training Neural Network | INFO | Training has been completed
+2026-05-30 13:55:25,971 | Training Neural Network | INFO | Saving the model
+2026-05-30 13:55:26,016 | Training Neural Network | INFO | Neural Network model has been saved successfully
+2026-05-30 13:55:26,017 | Training Neural Network | INFO | Creating the Gradient Decent
+2026-05-30 13:55:26,097 | Training Neural Network | INFO | Gradient Decent has been saved
+2026-05-30 13:55:26,097 | Training Neural Network | INFO | Testing the Neural Network Model
+2026-05-30 13:55:26,102 | Training Neural Network | INFO | Testing has been completed
+2026-05-30 13:55:26,103 | Training Neural Network | INFO | Generating the Classification Report
+2026-05-30 13:55:26,116 | Training Neural Network | INFO | Classification report for the neural network model has been generated successfully
+2026-05-30 13:55:26,116 | Training Neural Network | INFO | Calculating the recall score
+2026-05-30 13:55:26,121 | Training Neural Network | INFO | Recall Score has been calculated successfully 0.9965397923875432
+2026-05-30 13:55:26,121 | Training Neural Network | INFO | Calculating the accuracy score
+2026-05-30 13:55:26,123 | Training Neural Network | INFO | Accuracy Score has been calculated successfully 0.9775474956822107
+2026-05-30 13:55:26,123 | Training Neural Network | INFO | Calculating the precision score
+2026-05-30 13:55:26,127 | Training Neural Network | INFO | Precision Score has been calculated successfully 0.96
+2026-05-30 13:55:26,127 | Training Neural Network | INFO | Calculating the f1 score
+2026-05-30 13:55:26,131 | Training Neural Network | INFO | F1 Score has been calculated successfully 0.9779286926994907
+2026-05-30 13:55:26,131 | Training Neural Network | INFO | Generating the Confusion matrix for the Neural Network
+2026-05-30 13:55:26,276 | Training Neural Network | INFO | Confusion matrix Genrated and Saved successfully
+2026-05-30 13:55:26,277 | PipelineRunner | INFO | Neural network Training has been completed
+2026-05-30 13:55:26,277 | PipelineRunner | INFO | Starting to test the Neural Network Model
+2026-05-30 13:55:26,280 | Testing the Neural Network | INFO | Loading the scaler model
+2026-05-30 13:55:26,291 | Testing the Neural Network | INFO | Scaler model loaded successfully
+2026-05-30 13:55:26,291 | Testing the Neural Network | INFO | Loading the neural network model
+2026-05-30 13:55:26,292 | Testing the Neural Network | INFO | Neural Network model loaded successfully
+2026-05-30 13:55:26,292 | Testing the Neural Network | INFO | Loading the Nueral Network Weights
+2026-05-30 13:55:26,322 | Testing the Neural Network | INFO | Nueral Network Weights loaded successfully
+2026-05-30 13:55:26,322 | Testing the Neural Network | INFO | Starting the Neural Network Model evaluation
+2026-05-30 13:55:26,323 | Testing the Neural Network | INFO | Changed to Evaluate Mode
+2026-05-30 13:55:26,323 | Testing the Neural Network | INFO | Creating the sample test case
+2026-05-30 13:55:26,324 | Testing the Neural Network | INFO | Sample test case created
+2026-05-30 13:55:26,325 | Testing the Neural Network | INFO | Scaling the sample test case
+2026-05-30 13:55:26,326 | Testing the Neural Network | INFO | Sample test case has been scaled
+2026-05-30 13:55:26,327 | Testing the Neural Network | INFO | Converting the data to torch tensor
+2026-05-30 13:55:26,327 | Testing the Neural Network | INFO | Converted successfully
+2026-05-30 13:55:26,327 | Testing the Neural Network | INFO | Predicting the test samples
+2026-05-30 13:55:26,328 | Testing the Neural Network | INFO | Prediction completed
+2026-05-30 13:55:26,330 | Testing the Neural Network | INFO | Calculating the accuracy score
+2026-05-30 13:55:26,333 | Testing the Neural Network | INFO | Accuracy score has been calculated for the test sample 0.9
+2026-05-30 13:55:26,333 | PipelineRunner | INFO | Neural Network Model testing has been completed
+2026-05-30 13:55:26,333 | PipelineRunner | INFO | Neural Network Pipeline run Completed
+2026-05-30 13:55:26,334 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-30 13:55:26,336 | Main | INFO | Ml build pipeline has been completed
+2026-05-30 17:12:41,358 | Main | INFO | Starting the Ml build pipeline
+2026-05-30 17:12:41,359 | PipelineRunner | INFO | Starting the Pipeline
+2026-05-30 17:12:41,359 | PipelineRunner | INFO | Loading the configurations
+2026-05-30 17:12:41,360 | PipelineRunner | INFO | Fetched the Data path
+2026-05-30 17:12:41,361 | PipelineRunner | INFO | Reading the Data file
+2026-05-30 17:12:41,377 | PipelineRunner | INFO | Data file has been read successfully
+2026-05-30 17:12:41,377 | PipelineRunner | INFO | Performing data validations on the data file
+2026-05-30 17:12:41,377 | validaation | INFO | Checking for the presence of the required columns in the dataset
+2026-05-30 17:12:41,377 | validaation | INFO | All the columns are present in the dataset
+2026-05-30 17:12:41,377 | validaation | INFO | Renaming the columns in the dataset
+2026-05-30 17:12:41,379 | validaation | INFO | Columns have been renamed successfully
+2026-05-30 17:12:41,380 | PipelineRunner | INFO | Data Validation completed
+2026-05-30 17:12:41,380 | PipelineRunner | INFO | Getting the prediction columns
+2026-05-30 17:12:41,380 | PipelineRunner | INFO | Prediction column fetched successfully
+2026-05-30 17:12:41,380 | PipelineRunner | INFO | Getting the Augmentation factor and Noise factor
+2026-05-30 17:12:41,380 | PipelineRunner | INFO | Spliting the data set into train and test
+2026-05-30 17:12:41,388 | PipelineRunner | INFO | Performing Data augmentatino on the training data
+2026-05-30 17:12:41,388 | Data Augmentation | INFO | Starting the data augmentation process
+2026-05-30 17:12:41,393 | Data Augmentation | INFO | Data augmentation process has beem completed
+2026-05-30 17:12:41,394 | Data Augmentation | INFO | Merging the augmented data with the original training data
+2026-05-30 17:12:41,395 | Data Augmentation | INFO | Merging completed successfully
+2026-05-30 17:12:41,395 | PipelineRunner | INFO | Data Augmentation completed
+2026-05-30 17:12:41,395 | PipelineRunner | INFO | Building the pipeline
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | loading the cv and the scoring parameters from the config file
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Successfully loaded the parameters from the config file
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Building the Random Forest pipeline
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Successfully built the Random Forest pipeline
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | loading the parameter grid configuration for the grid search
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Successfully loaded the parameter grid configuration
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Setting up the GridSearchCV for the Random Forest pipeline
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Successfully set up the GridSearchCV for the Random Forest pipeline
+2026-05-30 17:12:41,397 | Pipelinebuilder | INFO | Successfully created the GridSearchCV for the Random Forest pipeline
+2026-05-30 17:12:41,397 | PipelineRunner | INFO | Pipeline build has been completed
+2026-05-30 17:12:41,398 | PipelineRunner | INFO | Training the model and the pipeline with the data
+2026-05-30 17:12:41,400 | Training | INFO | Training the model
+2026-05-30 17:12:41,400 | Training | INFO | Fitting the data into the model
+2026-05-30 17:21:55,056 | Training | INFO | Getting the best model
+2026-05-30 17:21:55,065 | Training | INFO | Testing the best model
+2026-05-30 17:21:55,081 | Training | INFO | Testing has been completed
+2026-05-30 17:21:55,081 | Training | INFO | Retrieveing the path to save the model
+2026-05-30 17:21:55,081 | Training | INFO | Model path exists and proceeding to save the model
+2026-05-30 17:21:55,143 | Training | INFO | Model has been successfully saved
+2026-05-30 17:21:55,143 | Training | INFO | Calculating the accuracy
+2026-05-30 17:21:55,147 | Training | INFO | Accuracy has been saved to the file in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/accuracy.txt
+2026-05-30 17:21:55,147 | Training | INFO | Generating the classification report
+2026-05-30 17:21:55,154 | Training | INFO | Classification report has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/classification_report.txt
+2026-05-30 17:21:55,154 | Training | INFO | Calculating the recall score
+2026-05-30 17:21:55,158 | Training | INFO | Recall score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/recall.txt
+2026-05-30 17:21:55,158 | Training | INFO | Calculating the precision score
+2026-05-30 17:21:55,161 | Training | INFO | Precision score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/precision.txt
+2026-05-30 17:21:55,161 | Training | INFO | Calculating the F1 score
+2026-05-30 17:21:55,164 | Training | INFO | F1 score has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/f1.txt
+2026-05-30 17:21:55,164 | Training | INFO | Generating confusion matrix
+2026-05-30 17:21:56,620 | Training | INFO | Confusion matrix has been saved in the path E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/confusion_matrix.png
+2026-05-30 17:21:56,621 | PipelineRunner | INFO | Model training has been completed
+2026-05-30 17:21:56,621 | PipelineRunner | INFO | Testing the model
+2026-05-30 17:21:56,621 | Testing | INFO | Starting model testing
+2026-05-30 17:21:56,630 | Testing | INFO | Test dataset created with 10 samples
+2026-05-30 17:21:56,630 | Testing | INFO | Looking for model file at: E:\PythonCertificates\Network Anaomoly detection\pipeline\models/network_anomaly_model.pkl
+2026-05-30 17:21:56,681 | Testing | INFO | Model loaded successfully
+2026-05-30 17:21:56,698 | Testing | INFO | Predictions generated successfully
+2026-05-30 17:21:56,711 | Testing | INFO | Test cases saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/test_cases.csv
+2026-05-30 17:21:56,712 | Testing | INFO | Testing accuracy: 90.00% saved to: E:\PythonCertificates\Network Anaomoly detection\pipeline\artifacts/testing_accuracy.txt
+2026-05-30 17:21:56,714 | PipelineRunner | INFO | Model Testing has been completed
+2026-05-30 17:21:56,714 | PipelineRunner | INFO | Starting Neural Network Pipeline
+2026-05-30 17:21:56,714 | PipelineRunner | INFO | Starting to standardize the data
+2026-05-30 17:21:56,717 | Neural Network Preprocessing | INFO | Creating the Standard Scaler model
+2026-05-30 17:21:56,717 | Neural Network Preprocessing | INFO | Fitting and Transforming the data for the scaler
+2026-05-30 17:21:56,721 | Neural Network Preprocessing | INFO | Saving the scaler model to the path
+2026-05-30 17:21:56,723 | Neural Network Preprocessing | INFO | Scaler model has been successfully saved
+2026-05-30 17:21:56,723 | Neural Network Preprocessing | INFO | Transforming the test data using the scaler
+2026-05-30 17:21:56,724 | Neural Network Preprocessing | INFO | Creating the tensors
+2026-05-30 17:21:56,780 | Neural Network Preprocessing | INFO | Tensors has been created successfully
+2026-05-30 17:21:56,782 | PipelineRunner | INFO | Standardization of the data completed
+2026-05-30 17:21:56,782 | PipelineRunner | INFO | Starting the train the neural network model
+2026-05-30 17:21:56,785 | Training Neural Network | INFO | Loading the Learning Rate
+2026-05-30 17:21:56,785 | Training Neural Network | INFO | Loading the model
+2026-05-30 17:21:56,802 | Training Neural Network | INFO | Model Loading has been completed
+2026-05-30 17:21:56,802 | Training Neural Network | INFO | Creating the loss criteria
+2026-05-30 17:21:56,803 | Training Neural Network | INFO | Loss criteria has been created as BCELoss
+2026-05-30 17:21:56,803 | Training Neural Network | INFO | Fitting the Optimizer and the learning rate
+2026-05-30 17:21:58,998 | Training Neural Network | INFO | Optimizer initialized
+2026-05-30 17:21:58,998 | Training Neural Network | INFO | Loading the Epoch
+2026-05-30 17:21:58,998 | Training Neural Network | INFO | Epoch rate has been loaded as 1000
+2026-05-30 17:21:58,998 | Training Neural Network | INFO | Starting the Epochs Trainings
+2026-05-30 17:22:06,348 | Training Neural Network | INFO | Training has been completed
+2026-05-30 17:22:06,348 | Training Neural Network | INFO | Saving the model
+2026-05-30 17:22:06,368 | Training Neural Network | INFO | Neural Network model has been saved successfully
+2026-05-30 17:22:06,368 | Training Neural Network | INFO | Creating the Gradient Decent
+2026-05-30 17:22:06,580 | Training Neural Network | INFO | Gradient Decent has been saved
+2026-05-30 17:22:06,580 | Training Neural Network | INFO | Testing the Neural Network Model
+2026-05-30 17:22:06,585 | Training Neural Network | INFO | Testing has been completed
+2026-05-30 17:22:06,585 | Training Neural Network | INFO | Generating the Classification Report
+2026-05-30 17:22:06,604 | Training Neural Network | INFO | Classification report for the neural network model has been generated successfully
+2026-05-30 17:22:06,604 | Training Neural Network | INFO | Calculating the recall score
+2026-05-30 17:22:06,611 | Training Neural Network | INFO | Recall Score has been calculated successfully 0.9965397923875432
+2026-05-30 17:22:06,611 | Training Neural Network | INFO | Calculating the accuracy score
+2026-05-30 17:22:06,615 | Training Neural Network | INFO | Accuracy Score has been calculated successfully 0.9758203799654577
+2026-05-30 17:22:06,615 | Training Neural Network | INFO | Calculating the precision score
+2026-05-30 17:22:06,621 | Training Neural Network | INFO | Precision Score has been calculated successfully 0.9568106312292359
+2026-05-30 17:22:06,622 | Training Neural Network | INFO | Calculating the f1 score
+2026-05-30 17:22:06,629 | Training Neural Network | INFO | F1 Score has been calculated successfully 0.976271186440678
+2026-05-30 17:22:06,629 | Training Neural Network | INFO | Generating the Confusion matrix for the Neural Network
+2026-05-30 17:22:06,833 | Training Neural Network | INFO | Confusion matrix Genrated and Saved successfully
+2026-05-30 17:22:06,835 | PipelineRunner | INFO | Neural network Training has been completed
+2026-05-30 17:22:06,835 | PipelineRunner | INFO | Starting to test the Neural Network Model
+2026-05-30 17:22:06,838 | Testing the Neural Network | INFO | Loading the scaler model
+2026-05-30 17:22:06,852 | Testing the Neural Network | INFO | Scaler model loaded successfully
+2026-05-30 17:22:06,852 | Testing the Neural Network | INFO | Loading the neural network model
+2026-05-30 17:22:06,853 | Testing the Neural Network | INFO | Neural Network model loaded successfully
+2026-05-30 17:22:06,853 | Testing the Neural Network | INFO | Loading the Nueral Network Weights
+2026-05-30 17:22:06,882 | Testing the Neural Network | INFO | Nueral Network Weights loaded successfully
+2026-05-30 17:22:06,882 | Testing the Neural Network | INFO | Starting the Neural Network Model evaluation
+2026-05-30 17:22:06,882 | Testing the Neural Network | INFO | Changed to Evaluate Mode
+2026-05-30 17:22:06,882 | Testing the Neural Network | INFO | Creating the sample test case
+2026-05-30 17:22:06,883 | Testing the Neural Network | INFO | Sample test case created
+2026-05-30 17:22:06,883 | Testing the Neural Network | INFO | Scaling the sample test case
+2026-05-30 17:22:06,884 | Testing the Neural Network | INFO | Sample test case has been scaled
+2026-05-30 17:22:06,884 | Testing the Neural Network | INFO | Converting the data to torch tensor
+2026-05-30 17:22:06,885 | Testing the Neural Network | INFO | Converted successfully
+2026-05-30 17:22:06,885 | Testing the Neural Network | INFO | Predicting the test samples
+2026-05-30 17:22:06,886 | Testing the Neural Network | INFO | Prediction completed
+2026-05-30 17:22:06,887 | Testing the Neural Network | INFO | Calculating the accuracy score
+2026-05-30 17:22:06,891 | Testing the Neural Network | INFO | Accuracy score has been calculated for the test sample 0.9
+2026-05-30 17:22:06,892 | PipelineRunner | INFO | Neural Network Model testing has been completed
+2026-05-30 17:22:06,892 | PipelineRunner | INFO | Neural Network Pipeline run Completed
+2026-05-30 17:22:06,892 | PipelineRunner | INFO | Pipeline run has been completed
+2026-05-30 17:22:06,896 | Main | INFO | Ml build pipeline has been completed

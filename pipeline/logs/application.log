@@ -1,0 +1,33 @@
+2026-05-30 18:35:21,696 | predictor routes | INFO | Accessing the root directory
+2026-05-30 18:42:12,616 | predictor routes | INFO | Accessing the health directory
+2026-05-31 16:01:39,116 | Random forest service | INFO | Loading the model path
+2026-05-31 16:01:39,116 | Random forest service | INFO | Model path found
+2026-05-31 16:01:39,117 | Random forest service | INFO | Model exists in the path
+2026-05-31 16:01:39,117 | Random forest service | INFO | Loading the model
+2026-05-31 16:01:53,754 | Random forest service | INFO | Model Loaded successfully
+2026-05-31 16:01:53,756 | Neural Network service | INFO | Loading the neural network path
+2026-05-31 16:01:53,756 | Neural Network service | INFO | Model path found
+2026-05-31 16:01:53,757 | Neural Network service | INFO | All the scaler and Neural Network weights exists in the path
+2026-05-31 16:01:53,757 | Neural Network service | INFO | Loading the Scaler model
+2026-05-31 16:01:53,764 | Neural Network service | INFO | Scaler Model Loaded successfully
+2026-05-31 16:01:53,765 | Neural Network service | INFO | Loading the Neural network Model
+2026-05-31 16:01:53,817 | Neural Network service | INFO | Neural Network model loaded successfully
+2026-05-31 16:01:53,818 | Neural Network service | INFO | Converting it to eval state
+2026-05-31 16:01:56,480 | Random forest service | INFO | Loading the model path
+2026-05-31 16:01:56,480 | Random forest service | INFO | Model path found
+2026-05-31 16:01:56,481 | Random forest service | INFO | Model exists in the path
+2026-05-31 16:01:56,481 | Random forest service | INFO | Loading the model
+2026-05-31 16:01:57,553 | Random forest service | INFO | Model Loaded successfully
+2026-05-31 16:01:57,556 | Neural Network service | INFO | Loading the neural network path
+2026-05-31 16:01:57,556 | Neural Network service | INFO | Model path found
+2026-05-31 16:01:57,556 | Neural Network service | INFO | All the scaler and Neural Network weights exists in the path
+2026-05-31 16:01:57,557 | Neural Network service | INFO | Loading the Scaler model
+2026-05-31 16:01:57,557 | Neural Network service | INFO | Scaler Model Loaded successfully
+2026-05-31 16:01:57,557 | Neural Network service | INFO | Loading the Neural network Model
+2026-05-31 16:01:57,563 | Neural Network service | INFO | Neural Network model loaded successfully
+2026-05-31 16:01:57,563 | Neural Network service | INFO | Converting it to eval state
+2026-05-31 16:02:11,517 | predictor routes | INFO | Accessing the health directory
+2026-05-31 16:02:11,517 | predictor routes | INFO | Health Status is up
+2026-05-31 16:02:40,325 | predictor routes | INFO | Running the random forest prediction
+2026-05-31 16:02:40,350 | predictor routes | INFO | Prediction complete
+2026-05-31 16:02:40,352 | predictor routes | INFO | Returning the results

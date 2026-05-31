@@ -1,0 +1,42 @@
+logging:
+  path: logs/
+  training: training.log
+  application: application.log
+  level: INFO
+
+model:
+  name: network_anomaly_model
+  namenn: network_anomaly_nn_model
+  save_path: models/
+
+artifacts:
+  save_path: artifacts/
+
+parameter_grid:
+  n_estimators: [100,200,300]
+  max_depth: [3, 5, 10, 20, 30]
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 2, 4]
+  scoring: f1
+  cv: 5
+  
+prediction:
+  column: Label
+
+augmentation:
+  factor: 6
+  noise_level: 0.02
+
+dataPath:
+  file: networkanomalydataset.csv
+  path: data/
+
+features:
+  - Inbound Rate(bit/s)
+  - Outbound Rate(bit/s)
+  - Inbound Bandwidth Utilization(%)
+  - Outbound Bandwidth Utilization(%)
+
+nnconfig:
+  lr: 0.001
+  epochs: 1000
