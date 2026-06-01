@@ -1,0 +1,131 @@
+{
+  "info": {
+    "_postman_id": "dde687c4-4487-49b0-94e7-fb343eb63f08",
+    "name": "Network_anaomoly",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "17439708"
+  },
+  "item": [
+    {
+      "name": "root_request",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://shankarang-network-anomaly-pipeline.hf.space",
+          "protocol": "https",
+          "host": [
+            "shankarang-network-anomaly-pipeline",
+            "hf",
+            "space"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "health",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://shankarang-network-anomaly-pipeline.hf.space/health",
+          "protocol": "https",
+          "host": [
+            "shankarang-network-anomaly-pipeline",
+            "hf",
+            "space"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "randomforestrequest",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "[\r\n    {\r\n        \"Inbound_Rate\": -0.82,\r\n        \"Outbound_Rate\": -0.83,\r\n        \"Inbound_Bandwidth_Utilization\": -0.81,\r\n        \"Outbound_Bandwidth_Utilization\": -0.84\r\n    },\r\n\r\n    {\r\n        \"Inbound_Rate\": -0.56,\r\n        \"Outbound_Rate\": -0.70,\r\n        \"Inbound_Bandwidth_Utilization\": -0.55,\r\n        \"Outbound_Bandwidth_Utilization\": -0.70\r\n    }\r\n]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://shankarang-network-anomaly-pipeline.hf.space/v1/predict",
+          "protocol": "https",
+          "host": [
+            "shankarang-network-anomaly-pipeline",
+            "hf",
+            "space"
+          ],
+          "path": [
+            "v1",
+            "predict"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "neuralnetworkrequest",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "[\r\n    {\r\n        \"Inbound_Rate\": -0.82,\r\n        \"Outbound_Rate\": -0.83,\r\n        \"Inbound_Bandwidth_Utilization\": -0.81,\r\n        \"Outbound_Bandwidth_Utilization\": -0.84\r\n    },\r\n\r\n    {\r\n        \"Inbound_Rate\": -0.56,\r\n        \"Outbound_Rate\": -0.70,\r\n        \"Inbound_Bandwidth_Utilization\": -0.55,\r\n        \"Outbound_Bandwidth_Utilization\": -0.70\r\n    }\r\n]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://shankarang-network-anomaly-pipeline.hf.space/v2/predict",
+          "protocol": "https",
+          "host": [
+            "shankarang-network-anomaly-pipeline",
+            "hf",
+            "space"
+          ],
+          "path": [
+            "v2",
+            "predict"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
