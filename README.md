@@ -20,12 +20,15 @@ This project provides a **dual-model inference API** for detecting network anoma
 ---
 
 # Live Deployment
-The API is deployed and publicly accessible on Hugging Face Spaces:
-EndpointURLBase URLhttps://shankarang-network-anomaly-pipeline.hf.space
-Health CheckGET /health
-Random Forest PredictPOST /v1/predict
-Neural Network PredictPOST /v2/predict
-Swagger Docs/docs
+The API is deployed and publicly accessible on **Hugging Face Spaces**:
+
+| Endpoint | URL |
+|---|---|
+| Base URL | `https://shankarang-network-anomaly-pipeline.hf.space` |
+| Health Check | `GET /health` |
+| Random Forest Predict | `POST /v1/predict` |
+| Neural Network Predict | `POST /v2/predict` |
+| Swagger Docs | `/docs` |
 
 ## Tech Stack
 
