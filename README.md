@@ -1,4 +1,4 @@
-# Network Anomaly Detection API
+# Network Anomaly Detection AP
 
 A production-ready Machine Learning API for real-time network anomaly detection.
 ---
